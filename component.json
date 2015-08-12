@@ -9,5 +9,6 @@
     "dist/fonts/nibdings.svg",
     "dist/fonts/nibdings.ttf",
     "dist/fonts/nibdings.woff"
-  ]
+  ],
+  "version": "2.4.3"
 }

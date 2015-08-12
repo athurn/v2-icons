@@ -5,12 +5,12 @@
     font-family: '<%= fontName %>';
     font-weight: normal;
     font-style: normal;
-    src: url('<%= fontPath %>/<%= fontName %>.eot');
+    src: font-url('<%= fontPath %>/<%= fontName %>.eot');
     src:
-        url('<%= fontPath %>/<%= fontName %>.eot?#iefix') format('eot'),
-        url('<%= fontPath %>/<%= fontName %>.woff') format('woff'),
-        url('<%= fontPath %>/<%= fontName %>.ttf') format('truetype'),
-        url('<%= fontPath %>/<%= fontName %>.svg#<%= fontName %>') format('svg')
+        font-url('<%= fontPath %>/<%= fontName %>.eot?#iefix') format('eot'),
+        font-url('<%= fontPath %>/<%= fontName %>.woff') format('woff'),
+        font-url('<%= fontPath %>/<%= fontName %>.ttf') format('truetype'),
+        font-url('<%= fontPath %>/<%= fontName %>.svg#<%= fontName %>') format('svg')
     ;
 }
 
